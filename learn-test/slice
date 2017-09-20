@@ -1,0 +1,9 @@
+L = ['jack', 'mike', 'jane']
+print(L[0:2])
+# 等同于
+print(L[:2])
+
+List = list(range(100))
+print(List)
+print(List[:10:2]) #前十个，没两个取一个
+
